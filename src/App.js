@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css'; 
+import ImportComponent from './R003_ImportComponent'
 
 function App () {
   return (
     <div>
       <h1>Start React 200! </h1>
       <p>HTML 적용하기 </p>
+      <ImportComponent></ImportComponent>
     </div>
   )
 }
 
 export default App;
-// index.js 파일이 App.js 파일을 불어온다. App.js 파일은 HTML을 뿌린다. index.js 파일이  chapter 2에서는 App.js를 불러오고
-//  App.js파일은 App.css파일을 불러오개한 다. .css는 배경을 바까준다.
-// 나머지는 chapter 1랑 비슷함 
+// R003_ImportComponent파일을 불러와 ImportComponent로 장하고 이것을 내보낸다.
+// 나머지는 chapter 2랑 비슷함 
