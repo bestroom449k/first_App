@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LifecycleEx from './R007_LifecycleEx'
+import LifecycleEx from './R008_LifecycleEx'
 
 function App() {
   return (
@@ -15,4 +15,5 @@ function App() {
 }
 
 export default App;
-//006대신 007을 불러옴
+//007대신 008을 불러옴
+// 변경 함수 사용
