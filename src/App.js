@@ -1,16 +1,19 @@
 import React from 'react';
-import './App.css'; 
-import LifecycleEx from'./R005_LifecycleEx'
+import './App.css';
+import LifecycleEx from './R006_LifecycleEx'
 
-function App () {
+function App() {
   return (
     <div>
-      <h1>Start React 200! </h1>
-      <p>HTML 적용하기 </p>
-      <LifecycleEx></LifecycleEx>
+      <h1>Start React 200!</h1>
+      <p>CSS 적용하기</p>
+      <LifecycleEx
+        prop_value = 'FromApp.js'
+      />
     </div>
-  )
+  );
 }
 
 export default App;
-// R005_LifecycleEx파일을 불러와 LifecycleEx로 장하고 이것을 내보낸다.
+/*예기에 div는 public/index.html의 <div id="root"> 안에 들어감
+그리고 LifecycleEx prop_value="FromApp.js이걸료 LifecycleEx에 prop_value이름으로 전달함 */
