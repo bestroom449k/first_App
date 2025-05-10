@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import PropsRequired from './R021_PropsRequired'
+import PropsDefault from './R022_PropsDefault'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <PropsRequired ReactNumber={200}/>
+      <PropsDefault ReactNumber={200}/>
     </div>
   );
-} // props에 ReactNumber = 200 이라는 숫자를 넣음
+}   //21번 랑같음
 
 export default App;
