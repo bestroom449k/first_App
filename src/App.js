@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
-import PropsBoolean from './R019_PropsBoolean'
+import PropsObjVal from './R020_PropsObjVal'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <PropsBoolean BooleanTrueFalse={false}/>
-      <PropsBoolean BooleanTrueFalse/>
+      <PropsObjVal ObjectJson={{react:"리액트", twohundred:"200"}}/>
     </div>
-  ); // <PropsBoolean BooleanTrueFalse={false}/>이것은 거짓이면 거짓으로 올리는 것이다 그리고 만약 <PropsBoolean BooleanTrueFalse/> 이게 없으면 진실이 안 뜸
-}
+  );
+}// props에 ObjectJson에 key에는 리액트 변수는 200이라는 글자를 넣는 다.
 
 export default App;
