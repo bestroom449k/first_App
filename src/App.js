@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
-import ComponentClass from './R027_ComponentClass'
+import PureComponentClass from './R028_PureComponentClass'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <ComponentClass/>
+      <PureComponentClass/>
     </div>
   );
-} //클래스형 컴포넌트를 만들고 불러와서 화면에 출력
+} //PureComponent는 state나 props가 바뀌었을 때만 render()를 실행 
+//일반 Component 차이점	PureComponent
+//setState() 호출 시	Component 무조건 render() PureComponent 다시 실행	값이 같으면 render() 안 함
 
 export default App;

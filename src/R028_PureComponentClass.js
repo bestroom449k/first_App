@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class R027_ComponentClass extends Component {
+class R028_PureComponentClass extends PureComponent {
   constructor (props) {
     super(props);
     this.state = {
@@ -26,6 +26,6 @@ class R027_ComponentClass extends Component {
       </div>
     )
   }
-} // 버튼 누를 떄 마다 콘솔에  이밴 트 실행
-
-export default R027_ComponentClass;
+}
+  // 변경 안됨
+export default R028_PureComponentClass;
