@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import SetState from './R025_SetState'
+import ForceUpdate from './R026_ForceUpdate'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      <SetState/>
+      <ForceUpdate/>
     </div>
   );
-} //SetState 안에는 버튼 클릭하면 state 값이 바뀌고, 화면도 바뀌는 코드
+} //<ForceUpdate이것이SetState와 다른 저은 setState() 없이도 React 컴포넌트를 강제로 리렌더링 함
 
 export default App;
