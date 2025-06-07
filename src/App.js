@@ -1,14 +1,14 @@
 import React from 'react';
-import AxiosGet from './R061_AxiosGet'
+import AxiosPost from './R062_AxiosPost'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <AxiosGet/>
+      <AxiosPost/>
     </div>
   );
 }
 
 export default App;
-// 링크에 문재 있음
+// 린크에 문재 있음
