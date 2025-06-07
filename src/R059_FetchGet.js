@@ -2,16 +2,14 @@ import React, { Component } from 'react';
 
 class R059_FetchGet extends Component {
   componentDidMount = async () => {
-    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    const response = await fetch('http://date.jsontest.com/');
     const body = await response.json();
-    alert(body[1].phone)
-    let apple =body[1].phon
+    alert(body.date)
   }
+
   render() {
     return (
-      <div style={{padding: "0px"}}>
-       {apple}
-        </div>
+        <h1>fetch get</h1>
     )
   }
 }
