@@ -1,13 +1,13 @@
 import React from 'react';
-import AxiosGet from './R061_AxiosGet'
+import AxiosPost from './R062_AxiosPost'
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <AxiosGet/>
+      <AxiosPost/>
     </div>
   );
 }
-
+// 링크 안됨
 export default App;
