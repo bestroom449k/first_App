@@ -1,11 +1,11 @@
 import React from "react";
-import ReacttonSubmit from "./R072_onSubmit"
+import R073_ReactRef from "./R073_ReactRef"
 
 function App() {
     return (
         <div>
           <h1>Start React 200!</h1>
-          <ReacttonSubmit/>
+          <R073_ReactRef/>
         </div>
     );
 }
